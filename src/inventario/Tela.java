@@ -75,8 +75,8 @@ public class Tela {
     }
     
     public String getInformacion(){
-        return "Tela " + codigo + ":" + getDescripcion() + ", stock: " + metrosStock 
-               + "m, costo/m: S/. " + costoPorMetro;
+        return "Tela " + codigo + ": " + getDescripcion() + ", stock: " + metrosStock 
+               + " m, costo/m: S/. " + costoPorMetro;
     }
     
     
